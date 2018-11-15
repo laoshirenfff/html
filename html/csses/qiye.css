@@ -1,0 +1,149 @@
+body{
+
+margin:0px auto;padding:0;
+
+font-family:Helvetica,Arial,sans-serif;
+width: 1280px;
+}
+
+#main{
+
+margin:0px auto; /*Ë®Æ½¾ÓÖÐ*/
+
+width:1280px;
+
+}
+header{
+
+border:0px #330000 solid;
+
+width:1280px;
+
+height:80px;
+
+background-image: url(../image/22.jpg);
+background-repeat: no-repeat;
+}
+aside{
+
+width:170px;
+
+float:left;  /*µ¼º½À¸¿¿×óÏÔÊ¾*/
+
+height:600px;
+
+/*¼ÓÈË±³¾°Í¼*/
+background-color: gray;
+}
+nav{
+width: 170px;
+border:0px #000000 solid;
+
+margin:0px auto;
+padding:0px;
+margin-top:120px;
+
+}
+article{
+background-image: url(../image/7.jpg);
+border-right:1px #330000 solid;/*ÏÔÊ¾×ó±ß¿òÏß*/
+
+width:1025px;
+
+margin-left:175px; /*¾àÀë×ó±ß½ç175px*/
+
+height:600px;
+
+
+
+}
+
+footer{
+
+border:0px #330000 solid;
+
+background-image: url(../image/22.jpg);
+background-repeat: no-repeat;
+
+color:#ffffff;
+
+width:1280px;height:50px;
+
+text-align:center; /*ÎÄ×Ö¾ÓÖÐ*/
+
+line-height:50px; /*ÐÐ¸ß50px*/
+
+}
+h1#text1{
+
+margin-left: 10px  padding:0px;
+
+top:0px;
+
+position:absolute;
+
+/*设置div 为绝对寻址*/
+
+font-size:40px;
+
+/*字高*/
+
+color:skyblue;
+
+/*字的颜色*/
+
+margin-left:60px;
+
+/*与组件水平距离*/
+
+}
+h1#text2{margin:0px;padding:5px;
+
+position:absolute;
+
+font-size:30px;
+
+color:#FFFFFF;
+
+top:30px;
+
+margin-left:150px;
+
+z-index:1;
+
+/*将层次设在第1层*/
+
+filter:glow(color=#ff0000,strength=5);
+
+/*设置光晕滤镜*/
+
+text-shadow:5px 5px 5px #FF0000;
+}
+img{
+	margin: 3px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border: 2px solid;
+}
+/*设置阴影*/
+.consection{
+	display: block;
+	border: 0px #330000 solid;
+	width: 950px;
+	left: 10px;  
+	top: 10px;
+	margin: 0px auto;
+	 padding:35px;
+	 color: white;
+}
+a{
+
+ 	text-decoration: none;
+    color: white;
+   }
+ a:hover{
+ 	
+    color: blue;
+		}
+
